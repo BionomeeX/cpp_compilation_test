@@ -4,14 +4,7 @@
 #include "multithreading_basic_test.cu"
 #include "relaxed_constexpr_test.cu"
 #include "structured_binding_basic_test.cu"
-#include <array>
-#include <filesystem>
-#include <fstream>
 #include <iostream>
-#include <thread>
-#include <thrust/device_vector.h>
-#include <thrust/host_vector.h>
-#include <tuple>
 
 int main(int argc, char** argv) {
     // use GPU with stream & thrust
